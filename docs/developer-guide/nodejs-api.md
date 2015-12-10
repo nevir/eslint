@@ -134,6 +134,7 @@ The `CLIEngine` is a constructor, and you can create a new instance by passing i
 * `cache` - Operate only on changed files (default: `false`). Corresponds to `--cache`.
 * `cacheFile` - Name of the file where the cache will be stored (default: `.eslintcache`). Corresponds to `--cache-file`. Deprecated: use `cacheLocation` instead.
 * `cacheLocation` - Name of the file or directory where the cache will be stored (default: `.eslintcache`). Correspond to `--cache-location`
+* `cwd` - Path to a directory that should be considered as an current working directory
 
 For example:
 
